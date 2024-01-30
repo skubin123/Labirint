@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body, html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	background: url("slika1.jpg") no-repeat;
+	background-size: cover;
+	max-height:500px;
+}
+.naslov{
+	margin-left:43%;
+}
+.lab{
+	margin-left:33%;
+	margin-top:5%;
+}
+.morskipes{
+	padding-bottom:50%;
+	margin-left:10%;
+	
+}

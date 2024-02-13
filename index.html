@@ -6,10 +6,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
 <link rel="icon" type="image/png" href="slika1.jpg">
+<script src="script.js"></script>
 </head>
 <body>
 	<div class="naslov"><h1>Labirint</h1></div>
-	<div class="lab"><img src="30 by 30 orthogonal maze.svg" ></div>
-	<img src="slika2.png" height="400px" class="morskipes">
+	
+	<div class="lab"><canvas id="canvas" class="maze" width="404px" height="405px"></div>
+	<script>
+									drawMaze();
+									</script>
+								</canvas>
+	
+	<div class="morskipes"><img src="slika2.png" height="200px" ></div>
+	<button class="gumb1" id="red" onclick="drawPath();"></button><br>
+	<button class="gumb2" id="yellow" onclick="erasePath();"></button>
 </body>
 </html>
